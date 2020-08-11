@@ -103,4 +103,17 @@ main(List<String> args) {
   } else {
     print("Else running!");
   }
+
+  //
+  // Logical Operators (! (Not),|| (Or), && (And))
+  //
+
+  int number5 = 4;
+  int number6 = 35;
+
+  if (number5 != 100) {
+    print("Not a hundred!");
+  } else {
+    print("Yeeeeeees!");
+  }
 }
