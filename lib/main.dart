@@ -109,7 +109,7 @@ main(List<String> args) {
   //
 
   int number5 = 4;
-  int number6 = 35;
+  // int number6 = 35;
 
   if (number5 != 100) {
     // should print out not a hundred
@@ -152,5 +152,42 @@ main(List<String> args) {
     if (i % 3 == 0)
       // print banana multiples of 3
       print("$fruit $i");
+  }
+
+  //
+  // While loops & do loops
+  //
+
+  // var number10 = 10;
+
+  // do {
+  //   print("Hello World");
+  // } while (number10 < 20);
+  //        break;
+
+  // while (true) {
+  //   // infinite loop
+  //   print("Going....");
+  // }
+
+  //
+  // Switch case
+  //
+
+  var minor = 18;
+
+  switch (minor) {
+    case 19:
+      print("Old Enough!");
+      break;
+    case 20:
+      print("Still Good!");
+      break;
+    case 70:
+      print("Too old!");
+      break;
+
+    default:
+      print("Default $minor");
   }
 }
