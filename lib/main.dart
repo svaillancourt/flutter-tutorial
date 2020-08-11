@@ -85,6 +85,7 @@ main(List<String> args) {
   int number3 = 4;
   int number4 = 35;
 
-  print(number3 is String);
-  print(number4 is int);
+  print(number3 is String); // false
+  print(number4 is int); // true
+  print(number4 is! int); // false
 }
