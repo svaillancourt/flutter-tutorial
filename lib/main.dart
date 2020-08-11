@@ -131,4 +131,26 @@ main(List<String> args) {
   } else {
     print("Yeeeeeees!");
   }
+
+  //
+  // For loops
+  //
+
+  for (var i = 0; i <= 10; i++) {
+    // print hello 1 to 10
+    print("Hello $i");
+  }
+
+  for (var i = 0; i <= 10; i++) {
+    if (i % 2 == 0)
+      // print hello multiples of 2
+      print("Hello $i");
+  }
+
+  var fruit = "Banana";
+  for (var i = 0; i <= 10; i++) {
+    if (i % 3 == 0)
+      // print banana multiples of 3
+      print("$fruit $i");
+  }
 }
