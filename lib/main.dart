@@ -42,7 +42,7 @@ main(List<String> args) {
   // Shweta Beeson is 28
 
   String firstName = "Shweta";
-  String lastName = "Beesoon";
+  String lastName = "Bee****";
   int age = 28;
 
   print("$firstName $lastName is $age");
@@ -79,7 +79,7 @@ main(List<String> args) {
   print(pie != gravity); // true
 
   //
-  // Control Flow Statements (as, is, is)
+  // Control Flow Statements (as, is, is!, if, else)
   //
 
   int number3 = 4;
@@ -88,4 +88,19 @@ main(List<String> args) {
   print(number3 is String); // false
   print(number4 is int); // true
   print(number4 is! int); // false
+
+  // IF statement
+  if (number4 == 35) {
+    print("if true, this will run!");
+  } else {
+    print("Else running!");
+  }
+
+  // Else statement
+
+  if (number4 != 35) {
+    print("if true, this will run!");
+  } else {
+    print("Else running!");
+  }
 }
