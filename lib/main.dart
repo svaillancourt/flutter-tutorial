@@ -112,6 +112,21 @@ main(List<String> args) {
   int number6 = 35;
 
   if (number5 != 100) {
+    // should print out not a hundred
+    print("Not a hundred!");
+  } else {
+    print("Yeeeeeees!");
+  }
+
+  if (!(number5 != 100) || number5 >= 100) {
+    // true or false
+    print("Not a hundred!");
+  } else {
+    print("Yeeeeeees!");
+  }
+
+  if (!(number5 != 100) && number5 <= 100) {
+    // false
     print("Not a hundred!");
   } else {
     print("Yeeeeeees!");
