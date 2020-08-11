@@ -32,7 +32,7 @@ main(List<String> args) {
   // const & final worlds
   //
 
-  final pi = 3.14;
+  // final pi = 3.14;
   // pi = 3.56;
 
   //
@@ -47,4 +47,44 @@ main(List<String> args) {
 
   print("$firstName $lastName is $age");
   print("Hello there $firstName ${lastName.toUpperCase()} ");
+
+  //
+  // Arithmetic (*,/,-,+,%)
+  //
+
+  int number = 4;
+  int numberTwo = 35;
+
+  var result = numberTwo + number;
+  var result2 = numberTwo - number;
+  var result3 = numberTwo / number;
+  var result4 = numberTwo * number;
+  var result5 = numberTwo % number;
+
+  print(result);
+  print(result2);
+  print(result3);
+  print(result4);
+  print(result5);
+
+  //
+  // Equality and Relational Operators in Dart (==,!=,>,<,>=,<=)
+  //
+
+  double pie = 3.14;
+  double gravity = 9.8;
+
+  print(pie == gravity); // false
+  print(pie == pie); // false
+  print(pie != gravity); // true
+
+  //
+  // Control Flow Statements (as, is, is)
+  //
+
+  int number3 = 4;
+  int number4 = 35;
+
+  print(number3 is String);
+  print(number4 is int);
 }
